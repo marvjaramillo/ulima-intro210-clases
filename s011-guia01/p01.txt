@@ -1,0 +1,5 @@
+Inicio
+    Leer(longitud_pies)
+    longitud_metros = longitud_pies * 0.3048
+    Imprimir(longitud_metros)
+Fin
