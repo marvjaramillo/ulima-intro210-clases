@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Sep 14 09:12:06 2020
-
-@author: JC
-"""
 anio = int(input("Ingrese valor de anio: "))
 bisiesto = None
 

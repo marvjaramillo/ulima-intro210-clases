@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-'''
-Objetivo:
-    Determinar si un numero es divisor de otro
-Entradas:
-    a, b - valores enteros
-Salida:
-    mensaje - indicando si b es divisor de a
-'''
 a = int(input("Ingrese valor de a: "))
 b = int(input("Ingrese valor de b: "))
 

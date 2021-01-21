@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Sep  9 11:01:37 2020
-
-@author: JC
-"""
 a = int(input("Ingrese numero: "))
 b = int(input("Ingrese numero: "))
 c = int(input("Ingrese numero: "))
