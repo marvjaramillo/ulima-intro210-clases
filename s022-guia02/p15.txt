@@ -1,0 +1,14 @@
+Inicio
+    a ← Leer("Ingrese valor de a: ")
+    b ← Leer("Ingrese valor de b: ")
+    
+    Si(b > a) entonces
+        Imprimir(b, "no puede ser divisor de", a)
+    Sino
+        Si(a mod b = 0) entonces
+            Imprimir(b, "es divisor de", a)
+        Sino
+            Imprimir(b, "no es divisor de", a)
+        Fin Si
+    Fin Si
+Fin
