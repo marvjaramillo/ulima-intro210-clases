@@ -11,4 +11,5 @@ def main():
     res = factorial(4)
     print(res)
 
-main()
+if __name__ == "__main__":
+    main()

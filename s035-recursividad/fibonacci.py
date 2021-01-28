@@ -11,5 +11,5 @@ def main():
     for i in range(31):
         print(fibonacci(i), end=" ")
 
-
-main()
+if __name__ == "__main__":
+    main()
