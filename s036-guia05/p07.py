@@ -1,13 +1,13 @@
-def sumar_numeros(n):
+def sumar_inversas(n):
     #Caso base: un solo numero
     if(n == 1):
         return 1
     else:
         #Recursion: el ultimo numero + suma de los anteriores
-        return n + sumar_numeros(n - 1)
+        return 1 / n + sumar_inversas(n - 1)
 
 def main():
-    res = sumar_numeros(12)
+    res = sumar_inversas(12)
     print("Suma: ", res)
 
 if __name__ == "__main__":
